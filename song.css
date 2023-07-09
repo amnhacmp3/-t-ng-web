@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #ec1f55;
+    --text-color: #333;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #fff;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  #header{
+    position:relative;
+  }
+.player-bar{
+  background: black !important;
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  margin-top: 20px;
+
+}
+.control-left{
+  float: left;
+
+}
+.control-left a{
+  color: #fff;
+  vertical-align: top;
+}
+.control-center{
+ 
+}
+.ip-pause{
+  display: none;
+}
+.volume{
+  position: relative;
+  float: right;
+  color: #fff;
+  margin: 0 15px;
+  /* margin-top: 0px;
+  font-size: 18px; */
+
+}
+.volume a{
+  color: #fff;
+  position: relative;
+  right: 30px;
+  top: 14px;
+  padding: 13px 0px;
+  font-size: 20px;
+}
+.fa-volume-xmark{
+  display: none;
+}
+.jp-volume-bar{
+  background-color: #666666;
+  /* position: absolute; */
+  overflow: hidden;
+  width: 46px;
+
+  height: 2px;
+  cursor: pointer;
+}
+ .jp-volume-bar-value{
+  height: 2px;
+  width: 80%;
+  background-color: #2fbb52;
+ } 

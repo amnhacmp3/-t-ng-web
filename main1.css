@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .txt{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+  }
+.nav2{
+    
+background: rgb(95, 187, 187);
+}
+
+.nav_1{
+  
+
+}
+.nav2 a{
+    color:#f9e816 !important;
+}
+
+.wrap-content{
+  position: relative;
+  top: 50px;
+}
+.row{
+  display: flex;
+  
+}
+.songhot{
+  position: relative;
+  top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav{
+ justify-content: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.nav-pills{
+   display: flex;
+}
+.nav-pills li > a{
+  color: #6a6a6a;
+}
+.nav li{
+  background: #a1a6a36e;
+  padding: 10px 14px;
+  color: #fff;
+  border-radius: 20px;
+  margin-right: 7px;
+}
+.active{
+  
+ background: #3ac663 !important;
+}
+.nav li:hover{
+  background: #3ac663;
+}
+.active a{
+  
+ 
+  color: #fff ;
+  border-radius: 20px;
+}
+.listen-all2{
+  position: absolute;
+  right: 0px;
+  top: 55px;
+  left: 10p;
+  width: 35px;
+  text-align: center;
+  height: 35px;
+  padding: 7px 7px 6px 8px;
+  background: #ff6026;
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: initial;
+  border-radius: 30px;
+}
+.media-left{
+
+}
+.media-left a img{
+  display: block;
+}
+.media-body{
+  margin-left: 20px;
+  line-height: 22px;
+  width: 100%;
+}
+.ellipsis{
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.singer-name{
+  font-size: 15px;
+    font-family: system-ui;
+    color: #6e6e6e !important;
+}
+.media-right{
+  font-size: 35px;
+  font-family: LatoThin;
+  color: #7272728c;
+  font-weight: 300;
+}
+
+
+.text-success{
+  color: #09ba00;
+}
+.text-primary{
+  color: #28b7a3;
+}
+.text-danger{
+  color: rgba(255, 0, 0, 0.639);
+}
+/* footer */
+.footer-row{
+  position: relative;
+  top:100px;
+}
+.singer-name::before{
+  content: '-';
+  
+}
+.media{
+  transition-duration: 0s !important;
+  }
+  .media:hover{
+      background:#cccccca5;
+      transform: none !important;
+  }

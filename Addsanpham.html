@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sanpham.css">
+    <title>Document</title>
+</head>
+<body>
+<label for="tenAmNhac">Tên Âm Nhạc</label>
+<input type="text" name="" id="tenAmNhac">
+<label for="Song">Link Song</label>
+<input type="text" name="" id="Song">
+<label for="Avt">AVT</label>
+<input type="text" name="" id="Avt">
+<button onclick="onClickTaoSanPham()">Tao</button>
+    <p id="hienthi">
+        Hiển thị
+    </p>
+    <script>
+        function onClickTaoSanPham(){
+            // Add am nhac
+        var nodeTenAmNhac = document.getElementById('tenAmNhac');
+        console.log(nodeTenAmNhac);
+        var tenAmNhac = nodeTenAmNhac.value;
+        console.log(tenAmNhac);
+        // Add link am nhac
+        var nodeLinkAmNhac = document.getElementById('Song');
+        console.log(nodeLinkAmNhac);
+        var Song = nodeLinkAmNhac.value;
+        console.log(Song);
+        // Add avt
+        var nodeAvt = document.getElementById('Avt');
+        console.log('Avt');
+        var Avt = nodeAvt.value;
+        console.log(Avt);
+        // Xuất thông tin
+        var nodehienthi= document.getElementById('hienthi');
+        console.log(nodehienthi);
+        nodehienthi.innerText = tenAmNhac + " " + Song + " " + Avt;
+}
+
+    </script>
+</body>
+</html>

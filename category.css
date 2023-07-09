@@ -1,0 +1,89 @@
+.nav4{
+    background: rgb(95, 187, 187);
+    color:#f9e816 !important;
+}
+#header{
+    position: initial;
+}
+.wrap-content{
+    position: relative;
+    top: 0px !important;
+}
+.category{
+    float: left;
+    position: relative;
+    top: 30px;
+}
+.category-1{
+    padding: 0 45px;
+    
+}
+.category-2{
+    float: left;
+   left: 160px;
+}
+.title{
+    padding-bottom: 15px;
+}
+.content-scroll{
+    line-height: 25px;
+}
+.content-scroll a{
+    color: #636363;
+    text-transform: capitalize;
+    display: block;
+    padding: 8px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.content-scroll a:hover{
+    color: #3ac663;
+}
+.zm_nav{
+   
+width: 780px !important;
+}
+.txt:hover{
+    color: #3ac663;
+}
+.pull-right{
+    float: right !important;
+    display: inline-block;
+   margin-top: 10px;
+
+}
+.pull-right span{
+    font-family: revert;
+    color: #3ac663;
+    font-weight: 600;
+}
+.pull-right i{
+    color: #3ac663;
+}
+.media-body{
+   
+}
+.song-name_2{
+    float: left;
+    position: relative;
+    top: 20px;
+}
+.singer-name{
+    float: left;
+    position: relative;
+    top: 13px;
+    left: 5px;
+}
+.title-uk{
+    margin-top: 30px !important;
+}
+.title-Korean{
+    margin-top: 30px !important;
+}
+.media{
+transition-duration: 0s !important;
+}
+.media:hover{
+    background:#cccccca5;
+    transform: none !important;
+}
